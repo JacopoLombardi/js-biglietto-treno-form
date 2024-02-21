@@ -6,22 +6,41 @@
    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
    <title>Prezzo Biglietto</title>
 </head>
-<body>
+<body class="bg-danger">
 
-   <main class="container  mt-5">
+   <div class="d-flex  justify-content-center  mt-5">
+      <h1 class="text-uppercase  text-white">calcola il prezzo del tuo biglietto</h1>
+   </div>
 
-      <div class="d-flex">
-         <h3>Kilometri</h3>
-         <input class="input_km  me-5" type="text">
+   <main class="container  mt-5  p-4  bg-white  rounded-4  shadow">
+      <div class="row  d-flex  justify-content-center  text-center">
 
-         <h3>Età</h3>
-         <input class="input_age" type="text">
+         <div class="col-3">
+            <h3>Nome e Cognome</h3>
+            <input class="input_name_lastname" type="text">
+         </div>
+
+         <div class="col-3">
+            <h3>Kilometri</h3>
+            <input class="input_km  me-5" type="text">
+         </div>
+
+         <div class="col-3">
+            <h3>Età</h3>
+            <input class="input_age" type="text">
+         </div>
+
+
+
+         <!-- pulsanti -->
+         <div class="col-12  d-flex  justify-content-center  mt-5">
+            <button class="btn_1  mt-3  btn btn-primary">Start</button>
+            <button class="btn_2  mt-3  ms-4  btn btn-primary">Start</button>
+         </div>
+
+
+
       </div>
-
-      <div>
-         <button class="btn_1  mt-4  btn btn-primary">Start</button>
-      </div>
-
    </main>
 
 
