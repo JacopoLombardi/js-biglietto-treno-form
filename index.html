@@ -8,46 +8,80 @@
 </head>
 <body class="bg-danger">
 
+   <!-- calcolo del biglietto -->
    <div class="d-flex  justify-content-center  mt-5">
-      <h1 class="text-uppercase  text-white">calcola il prezzo del tuo biglietto</h1>
+      <h1 class="text-uppercase  text-white  fw-bold">calcola il prezzo del tuo biglietto</h1>
    </div>
 
-   <main class="container  mt-5  p-4  bg-white  rounded-4  shadow">
-      <div class="row  d-flex  justify-content-center  text-center">
+   <main>
+      <section class="container  mt-3  p-4  bg-white  rounded-4  shadow">
+         <div class="row  d-flex  justify-content-center  text-center">
 
-         <div class="col-3">
-            <h3>Nome e Cognome</h3>
-            <input class="input_name_lastname" type="text">
+            <!-- input -->
+            <div class="col-3">
+               <h3>Nome e Cognome</h3>
+               <input class="input_firstname_lastname  w-100  rounded-3  border-danger" type="text">
+            </div>
+
+            <div class="col-3">
+               <h3>Kilometri da percorrere</h3>
+               <input class="input_km  me-5  w-100  rounded-3  border-danger" type="text">
+            </div>
+
+            <div class="col-3">
+               <h3>Fascia d'età passeggero</h3>
+               <input class="input_age  w-100  rounded-3  border-danger" type="text">
+            </div>
+
+
+            <!-- pulsanti -->
+            <div class="col-12  d-flex  justify-content-center  mt-5">
+               <button class="btn_1  mt-3  fw-semibold  btn  btn-primary">Genera Ticket</button>
+               <button class="btn_2  mt-3  ms-5  fw-semibold  btn btn-primary">Reset</button>
+            </div>
+
          </div>
+      </section>
 
-         <div class="col-3">
-            <h3>Kilometri</h3>
-            <input class="input_km  me-5" type="text">
-         </div>
-
-         <div class="col-3">
-            <h3>Età</h3>
-            <input class="input_age" type="text">
-         </div>
-
-
-
-         <!-- pulsanti -->
-         <div class="col-12  d-flex  justify-content-center  mt-5">
-            <button class="btn_1  mt-3  btn btn-primary">Start</button>
-            <button class="btn_2  mt-3  ms-4  btn btn-primary">Start</button>
-         </div>
-
-
-
+      <!-- il tuo biglietto -->
+      <div class="d-flex  justify-content-center  mt-5">
+         <h2 class="text-uppercase  text-white  fw-bold">il tuo biglietto</h2>
       </div>
+
+      <section class="container bg-white  mt-3  p-4">
+         <p class="text-uppercase  fw-bold  fs-4">dettaglio passeggero</p>
+         <div class="row  border">
+
+            <div class="col-3  bg-warning">
+               <h4 class="text-uppercase  fw-bold  fs-5  mb-5">nome passeggero</h4>
+               <p class="out_name  fw-bold  fs-5">nnoommeeeeeeee</p>
+            </div>
+
+            <div class="col-2">
+               <h4 class="fs-5  fw-bold  mb-5">Offerta</h4>
+               <p class="out_offer">xxxxxxxx</p>
+            </div>
+
+            <div class="col-2">
+               <h4 class="fs-5  fw-bold  mb-5">Carrozza</h4>
+               <p class="out_carrozza">xxxxxxxx</p>
+            </div>
+
+            <div class="col-2">
+               <h4 class="fs-5  fw-bold  mb-5">Codice CP</h4>
+               <p class="out_cpcode">xxxxxxxx</p>
+            </div>
+
+            <div class="col-2">
+               <h4 class="fs-5  fw-bold  mb-5">Costo Biglietto</h4>
+               <p class="out_priceticket">xxxxxxxx</p>
+            </div>
+
+         </div>
+      </section>
+
+
    </main>
-
-
-
-
-
-
 
 
    <!-- <div>

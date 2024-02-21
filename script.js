@@ -2,6 +2,7 @@
 // dichiaro alcune variabile assegnandole a delle classi dell'HTML
 const km = document.querySelector('.input_km');
 const age = document.querySelector('.input_age');
+const firstnameLastname = document.querySelector('.input_firstname_lastname');
 const btn_1 = document.querySelector('.btn_1');
 
 let prezzoFinale = '';
