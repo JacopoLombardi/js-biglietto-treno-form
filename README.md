@@ -10,3 +10,5 @@ Biglietto Treno Form
 7. il Prezzo Finale viene modificato ottenedo 2 cifre decimali.
 8. il Prezzo Finale con 2 decimali viene poi stampato in pagina HTML.
 9. creiamo un Html più carino e con alcune features.
+10. usiamo 2 number generator per il numero della Carrozza e Codice CP.
+11. associamo le vecchie e nuove variabili di Js alle classi dell'Html.
